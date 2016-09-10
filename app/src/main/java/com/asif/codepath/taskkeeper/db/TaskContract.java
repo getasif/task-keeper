@@ -1,10 +1,10 @@
-package com.rishi.codepath.taskkeeper.db;
+package com.asif.codepath.taskkeeper.db;
 
 import android.provider.BaseColumns;
 
 /**
  * Contract for Favourite restaurants database
- * Created by rishi on 9/24/16.
+ * Created by asif on 9/24/16.
  */
 public class TaskContract {
     public TaskContract(){}

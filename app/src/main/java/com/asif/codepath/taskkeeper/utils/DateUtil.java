@@ -1,4 +1,4 @@
-package com.rishi.codepath.taskkeeper.utils;
+package com.asif.codepath.taskkeeper.utils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -7,7 +7,7 @@ import java.util.Date;
 
 /**
  * Utility to work with dates as per requirement
- * Created by rishi on 09/25/16.
+ * Created by asif on 09/25/16.
  */
 public class DateUtil {
 

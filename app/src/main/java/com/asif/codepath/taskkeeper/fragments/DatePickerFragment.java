@@ -1,4 +1,4 @@
-package com.rishi.codepath.taskkeeper.fragments;
+package com.asif.codepath.taskkeeper.fragments;
 
 
 import android.app.DatePickerDialog;
@@ -9,13 +9,13 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.DialogFragment;
 import android.widget.DatePicker;
 
-import com.rishi.codepath.taskkeeper.interfaces.IDatePickerDialogListener;
+import com.asif.codepath.taskkeeper.interfaces.IDatePickerDialogListener;
 
 import java.util.Calendar;
 
 /**
  * Date picker dialog for the app
- * Created by rishi on 9/27/16.
+ * Created by asif on 9/27/16.
  */
 public class DatePickerFragment extends DialogFragment implements DatePickerDialog.OnDateSetListener{
 

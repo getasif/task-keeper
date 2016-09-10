@@ -1,4 +1,4 @@
-package com.rishi.codepath.taskkeeper.db;
+package com.asif.codepath.taskkeeper.db;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -7,10 +7,10 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import com.rishi.codepath.taskkeeper.model.Task;
-import com.rishi.codepath.taskkeeper.utils.DateUtil;
-import com.rishi.codepath.taskkeeper.interfaces.ITaskListUpdateListener;
-import com.rishi.codepath.taskkeeper.db.TaskContract.TaskEntry;
+import com.asif.codepath.taskkeeper.model.Task;
+import com.asif.codepath.taskkeeper.utils.DateUtil;
+import com.asif.codepath.taskkeeper.interfaces.ITaskListUpdateListener;
+import com.asif.codepath.taskkeeper.db.TaskContract.TaskEntry;
 
 import java.util.ArrayList;
 import java.util.UUID;
@@ -18,7 +18,7 @@ import java.util.UUID;
 /**
  * Singleton class to manage the DB operations for task and
  * provides helper methods for task list management
- * Created by rishi on 9/24/16.
+ * Created by asif on 9/24/16.
  */
 public class TaskDbHelper extends SQLiteOpenHelper {
 

@@ -1,4 +1,4 @@
-package com.rishi.codepath.taskkeeper.adapter;
+package com.asif.codepath.taskkeeper.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -15,17 +15,17 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.rishi.codepath.taskkeeper.R;
-import com.rishi.codepath.taskkeeper.db.TaskDbHelper;
-import com.rishi.codepath.taskkeeper.fragments.TaskDetailDialog;
-import com.rishi.codepath.taskkeeper.model.Task;
-import com.rishi.codepath.taskkeeper.model.TaskPriority;
+import com.asif.codepath.taskkeeper.R;
+import com.asif.codepath.taskkeeper.db.TaskDbHelper;
+import com.asif.codepath.taskkeeper.fragments.TaskDetailDialog;
+import com.asif.codepath.taskkeeper.model.Task;
+import com.asif.codepath.taskkeeper.model.TaskPriority;
 
 import java.util.ArrayList;
 
 /**
  * Adapter for list view of tasks. Handles click and long clicks
- * Created by rishi on 9/23/16.
+ * Created by asif on 9/23/16.
  */
 public class ItemAdapter extends ArrayAdapter<Task> {
 

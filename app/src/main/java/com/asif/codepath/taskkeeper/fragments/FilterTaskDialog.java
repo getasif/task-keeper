@@ -1,4 +1,4 @@
-package com.rishi.codepath.taskkeeper.fragments;
+package com.asif.codepath.taskkeeper.fragments;
 
 import android.app.Dialog;
 import android.os.AsyncTask;
@@ -9,14 +9,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.RadioGroup;
 
-import com.rishi.codepath.taskkeeper.R;
-import com.rishi.codepath.taskkeeper.db.TaskContract;
-import com.rishi.codepath.taskkeeper.db.TaskDbHelper;
-import com.rishi.codepath.taskkeeper.utils.DateUtil;
+import com.asif.codepath.taskkeeper.R;
+import com.asif.codepath.taskkeeper.db.TaskContract;
+import com.asif.codepath.taskkeeper.db.TaskDbHelper;
+import com.asif.codepath.taskkeeper.utils.DateUtil;
 
 /**
  * Filter option for filtering the tasks
- * Created by rishi on 9/23/16.
+ * Created by asif on 9/23/16.
  */
 public class FilterTaskDialog extends DialogFragment {
 

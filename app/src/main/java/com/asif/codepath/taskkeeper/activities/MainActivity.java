@@ -1,4 +1,4 @@
-package com.rishi.codepath.taskkeeper.activities;
+package com.asif.codepath.taskkeeper.activities;
 
 
 import android.os.AsyncTask;
@@ -11,13 +11,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ListView;
 
-import com.rishi.codepath.taskkeeper.R;
-import com.rishi.codepath.taskkeeper.adapter.ItemAdapter;
-import com.rishi.codepath.taskkeeper.fragments.FilterTaskDialog;
-import com.rishi.codepath.taskkeeper.fragments.TaskDetailDialog;
-import com.rishi.codepath.taskkeeper.interfaces.ITaskListUpdateListener;
-import com.rishi.codepath.taskkeeper.model.Task;
-import com.rishi.codepath.taskkeeper.db.TaskDbHelper;
+import com.asif.codepath.taskkeeper.R;
+import com.asif.codepath.taskkeeper.adapter.ItemAdapter;
+import com.asif.codepath.taskkeeper.fragments.FilterTaskDialog;
+import com.asif.codepath.taskkeeper.fragments.TaskDetailDialog;
+import com.asif.codepath.taskkeeper.interfaces.ITaskListUpdateListener;
+import com.asif.codepath.taskkeeper.model.Task;
+import com.asif.codepath.taskkeeper.db.TaskDbHelper;
 
 import java.util.ArrayList;
 

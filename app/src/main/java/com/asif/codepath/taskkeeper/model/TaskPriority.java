@@ -1,11 +1,11 @@
-package com.rishi.codepath.taskkeeper.model;
+package com.asif.codepath.taskkeeper.model;
 
-import com.rishi.codepath.taskkeeper.R;
+import com.asif.codepath.taskkeeper.R;
 
 /**
  * Enum to hold the priorities of the task
  * TODO Usage could be improved
- * Created by rishi on 9/23/16.
+ * Created by asif on 9/23/16.
  */
 public enum TaskPriority {
 

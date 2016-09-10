@@ -1,4 +1,4 @@
-package com.rishi.codepath.taskkeeper.fragments;
+package com.asif.codepath.taskkeeper.fragments;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -14,21 +14,21 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
-import com.rishi.codepath.taskkeeper.interfaces.IDatePickerDialogListener;
-import com.rishi.codepath.taskkeeper.R;
-import com.rishi.codepath.taskkeeper.model.Task;
-import com.rishi.codepath.taskkeeper.db.TaskDbHelper;
-import com.rishi.codepath.taskkeeper.model.TaskPriority;
-import com.rishi.codepath.taskkeeper.utils.DateUtil;
+import com.asif.codepath.taskkeeper.interfaces.IDatePickerDialogListener;
+import com.asif.codepath.taskkeeper.R;
+import com.asif.codepath.taskkeeper.model.Task;
+import com.asif.codepath.taskkeeper.db.TaskDbHelper;
+import com.asif.codepath.taskkeeper.model.TaskPriority;
+import com.asif.codepath.taskkeeper.utils.DateUtil;
 
 import java.util.UUID;
 
 /**
  * Shows dialog to fill in task details
- * Created by rishi on 9/23/16.
+ * Created by asif on 9/23/16.
  */
 public class TaskDetailDialog extends DialogFragment {
-    private static final String EXTRA_TASK_ID = "com.rishi.codepath.simpletodo.taskId";
+    private static final String EXTRA_TASK_ID = "com.asif.codepath.simpletodo.taskId";
     private RadioGroup mRadioGroup;
     private TextView mTvDueDate;
     private EditText mEtTask;

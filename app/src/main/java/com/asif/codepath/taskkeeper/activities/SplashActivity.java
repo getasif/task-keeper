@@ -1,10 +1,10 @@
-package com.rishi.codepath.taskkeeper.activities;
+package com.asif.codepath.taskkeeper.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.rishi.codepath.taskkeeper.R;
+import com.asif.codepath.taskkeeper.R;
 
 /**
  * Splash activity shows the app icon, name and tag line

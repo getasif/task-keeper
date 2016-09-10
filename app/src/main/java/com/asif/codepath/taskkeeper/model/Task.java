@@ -1,10 +1,10 @@
-package com.rishi.codepath.taskkeeper.model;
+package com.asif.codepath.taskkeeper.model;
 
 import java.util.UUID;
 
 /**
  * Model to hold the taskName
- * Created by rishi on 9/23/16.
+ * Created by asif on 9/23/16.
  */
 public class Task {
 

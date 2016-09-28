@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Task Keeper</string>
+    <string name="task_detail_label">What is to be done?</string>
+    <string name="task_detail_hint">Your task</string>
+    <string name="due_date_label">Due date</string>
+    <string name="date_format_hint">mm/dd/yyyy</string>
+    <string name="high_label">High</string>
+    <string name="medium_label">Medium</string>
+    <string name="low_label">Low</string>
+    <string name="save_label">Save</string>
+    <string name="title_date_dialog">Due date</string>
+    <string name="task_notes_hint">Enter quick notes</string>
+    <string name="task_required_error">Task is required</string>
+    <string name="error_no_item">No tasks found! \n Start by adding new</string>
+    <string name="msg_tag">Manage your tasks</string>
+    <string name="msg_filter_by">Filter tasks by:</string>
+    <string name="overdue_option">Overdue</string>
+    <string name="today_option">Today</string>
+    <string name="upcoming_option">Upcoming</string>
+    <string name="high_priority_option">High priority</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="str_filter">Filter</string>
+    <string name="str_delete">Delete</string>
+    <string name="str_refresh">Refresh</string>
+</resources>
